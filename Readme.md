@@ -28,10 +28,6 @@
 <img width="960" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/f8af91d5-670b-420d-bb32-8c6fa1c7595e">
 
 
-## NAT gateways
-
-<img width="876" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/8a6cb953-1e5b-4340-990b-4d1343b42b07">
-
 
 ## virtual machine
 
