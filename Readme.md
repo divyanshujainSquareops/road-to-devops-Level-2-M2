@@ -2,6 +2,8 @@
 
 # Create Resource
 
+	<img width="529" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/8921d7be-2aa1-4f3f-a411-05d112676c72">
+
 
 
 # Create Virtual network
