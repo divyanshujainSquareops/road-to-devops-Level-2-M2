@@ -23,8 +23,9 @@
 ## RouteTable
 
  - private_route_table
+ - public_route_table
 
-   <img width="957" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/d8da9dbd-c210-4bf6-ab1d-4fcb4b005a53">
+<img width="960" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/f8af91d5-670b-420d-bb32-8c6fa1c7595e">
 
 
 ## NAT gateways
