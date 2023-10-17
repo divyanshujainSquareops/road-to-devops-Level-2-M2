@@ -147,8 +147,8 @@ mount file-share address permanent in wordpress-VM :-
 
 # Create Applicate gateway (layer 7 ) :
 
-	I followed this link to create AG(LB7) :-
-		[Create Application gateway](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal)
+I followed this link to create AG(LB7) :-
+	[Create Application gateway](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal)
 	
 			
 
