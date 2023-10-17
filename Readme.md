@@ -4,23 +4,39 @@
 
 <img width="529" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/8921d7be-2aa1-4f3f-a411-05d112676c72">
 
+<img width="952" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/661e6bd9-8c64-4f67-b4eb-eb81f38ac90c">
+
+
 
 
 # Create Virtual network
 
- - ## public_subnet
- - ## private_subnet
+<img width="768" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/881519c0-241b-4f9c-972f-b1b3de32a9e3">
+  
+ - ## private_subnet (for private VM)
+ - ## Application-Gateway-Subnet (for load balancer)
+ - ## Bastion-Gateway (for bastion service)
+
+<img width="798" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/79ffea5d-ddb6-4530-92d5-49d4efd903e5">
+
 
 ## RouteTable
 
- - public_route_table 
  - private_route_table
 
+   <img width="957" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/d8da9dbd-c210-4bf6-ab1d-4fcb4b005a53">
+
+
 ## NAT gateways
+
+<img width="876" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/8a6cb953-1e5b-4340-990b-4d1343b42b07">
+
 
 ## virtual machine
 
 create 4 virtual machine by following these steps :-
+
+ <img width="950" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/3207965b-72b1-4728-ad44-1f80bf3e73f7">
 
  - create one public-VM for ssh in private VM
  - **create one private VM and install word-press infrastructure**
@@ -106,7 +122,9 @@ Master installation in MySql :-
 
 # Azure file share permanent mount in wordpress:
 
-	
+<img width="951" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/e758a281-7b28-4ceb-9b28-2826b8c785b9">
+
+
 Create crediansials file :-
 
 		if [ ! -d "/etc/smbcredentials" ]; then
