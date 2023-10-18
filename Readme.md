@@ -106,14 +106,14 @@ Master installation in MySql :-
 	 - install mysql (same as mysql-master setup)
 	 - slave installation
 	 
-				-> sudo /etc/mysql/my.cnf
+					-> sudo /etc/mysql/my.cnf
 							bind-address = mysql-slave-private-ip
 							server-id=2
 							expire_logs_days=10
 							max_binlog_size=100M
-				-> sudo systemctl restart mysql.service
-				-> mysql -uroot < masterdump.sql
-				-> mysql -u root
+					-> sudo systemctl restart mysql.service
+					-> mysql -uroot < masterdump.sql
+					-> mysql -u root
 						CHANGE MASTER TO MASTER_HOST='10.0.2.5',MASTER_USER='mysql_master',MASTER_PASSWORD='Deepu@123';
 						start slave;
 						show slave status\G;
