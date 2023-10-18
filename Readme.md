@@ -80,8 +80,9 @@ install wordpress
 			 sudo mysql -u root -p 
 
 CREATE DATABASE wordpressdb :-
-			
-			SHOW databases;
+
+			CREATE DATABASE wordpressdb;
+   			SHOW databases;
 			CREATE USER 'wpuser'@'%' IDENTIFIED BY 'your_password_here';
 			GRANT ALL PRIVILEGES on wordpressdb.* to "wpuser"@"%";
 			FLUSH PRIVILEGES;
