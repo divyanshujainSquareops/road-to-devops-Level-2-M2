@@ -99,7 +99,8 @@ Master installation in MySql :-
 		-> mysql -u root
 			grant replication slave on *.* to 'wpuser'@'%';
 		-> mysqldump -uroot --all-databases --master-data > masterdump.sql
-		-> grep CHANGE *sql | head -l;(slave log file and log pos)
+		-> grep CHANGE *sql | head -1;
+			(slave log file and log pos)
 		-> scp masterdump.sql <slave_ip>:	
 
  - Create Slave-Sql VM :-
