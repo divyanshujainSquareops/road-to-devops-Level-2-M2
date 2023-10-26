@@ -165,17 +165,22 @@ mount file-share address permanent in wordpress-VM :-
 I followed this link to create AG(LB7) :-
 	[Create Application gateway](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal)
 	
-	<img width="320" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/db1d9545-2119-494e-a887-b804794f1e78">
+<img width="320" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/db1d9545-2119-494e-a887-b804794f1e78">
 
-	<img width="466" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/b5adbc60-ddfc-4884-ac98-15e63046fbd6">
 
-	<img width="943" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/f3b035cd-9263-46c0-bb37-6993aa0b4862">
+<img width="466" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/b5adbc60-ddfc-4884-ac98-15e63046fbd6">
 
-	<img width="357" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/82ab6694-5f41-456d-afea-cd17b505bf30">
 
-	<img width="423" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/241ecec9-5a0c-42c0-9cd6-03f9ce1f253d">
+<img width="943" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/f3b035cd-9263-46c0-bb37-6993aa0b4862">
 
- 	<img width="564" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/cd6beec5-b4a1-4299-ad00-d3b5b159044a">
+
+<img width="357" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/82ab6694-5f41-456d-afea-cd17b505bf30">
+
+
+<img width="423" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/241ecec9-5a0c-42c0-9cd6-03f9ce1f253d">
+
+
+ <img width="564" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/cd6beec5-b4a1-4299-ad00-d3b5b159044a">
 
 
 
