@@ -81,6 +81,10 @@ install wordpress
     sudo rm -rf index.html
 
  - Create ami of wordpress-VM  and create two VM **wordpress1** and **wordpress2**
+
+<img width="951" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/249470a5-95df-4bc7-91b5-cc6711e87c16">
+
+
  - **Create mysql master-slave infrastructure**
 	 - create Master-MySql VM
 		MySql installation :-
