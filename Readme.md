@@ -21,7 +21,12 @@
 
 <img width="286" alt="Screenshot 2023-10-26 145641" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/6b231998-bd87-4d15-9f6a-f9832f0e81ee">
 
+
 <img width="293" alt="Screenshot 2023-10-26 145632" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/7b26b37c-44c9-4b04-8baa-7626c783a458">
+
+## NatGateway
+
+<img width="797" alt="Screenshot 2023-10-26 145657" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/af4d82c2-a6aa-4761-8b1e-6982535f51d5">
 
 ## RouteTable
 
