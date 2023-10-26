@@ -111,7 +111,7 @@ CREATE DATABASE wordpressdb :-
 Master installation in MySql :-
 
 		-> sudo /etc/mysql/my.cnf
-			bind-address = mysql-master-private-ip
+			bind-address = 0.0.0.0
 			server-id=1
 			expire_logs_days=10
 			max_binlog_size=100M
@@ -128,7 +128,7 @@ Master installation in MySql :-
 	 - slave installation
 	 
 					-> sudo /etc/mysql/my.cnf
-							bind-address = mysql-slave-private-ip
+							bind-address = 0.0.0.0
 							server-id=2
 							expire_logs_days=10
 							max_binlog_size=100M
@@ -157,11 +157,11 @@ Create crediansials file :-
 
 Create fstab file :-	
 
-		sudo bash -c 'echo "//storagemultiinstance.file.core.windows.net/filesharemultiinstancewordpress /var/www/html/mnt/filesharemultiinstancewordpress/wp-content/uploads cifs nofail,credentials=/etc/smbcredentials/storagemultiinstance.cred,dir_mode=0777,file_mode=0777,serverino,nosharesock,actimeo=30" >> /etc/fstab'
+		sudo bash -c 'echo "//storagemultiinstance.file.core.windows.net/filesharemultiinstancewordpress /var/www/html/wp-content/uploads cifs nofail,credentials=/etc/smbcredentials/storagemultiinstance.cred,dir_mode=0777,file_mode=0777,serverino,nosharesock,actimeo=30" >> /etc/fstab'
 
 mount file-share address permanent in wordpress-VM :-
 
-		sudo mount -t cifs //storagemultiinstance.file.core.windows.net/filesharemultiinstancewordpress  /var/www/html/mnt/filesharemultiinstancewordpress/wp-content/uploads -o credentials=/etc/smbcredentials/storagemultiinstance.cred,dir_mode=0777,file_mode=0777,serverino,nosharesock,actimeo=30
+		sudo mount -t cifs //storagemultiinstance.file.core.windows.net/filesharemultiinstancewordpress  /var/www/html/wp-content/uploads -o credentials=/etc/smbcredentials/storagemultiinstance.cred,dir_mode=0777,file_mode=0777,serverino,nosharesock,actimeo=30
 
 
 # Create Applicate gateway (layer 7 ) :
