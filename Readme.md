@@ -163,6 +163,27 @@ mount file-share address permanent in wordpress-VM :-
 
 		sudo mount -t cifs //storagemultiinstance.file.core.windows.net/filesharemultiinstancewordpress  /var/www/html/wp-content/uploads -o credentials=/etc/smbcredentials/storagemultiinstance.cred,dir_mode=0777,file_mode=0777,serverino,nosharesock,actimeo=30
 
+## Security rules (inbound rules):-
+
+
+
+<img width="959" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/ee285cb4-0a2a-4ea1-b482-3b7fd6d0b435">
+
+
+inbound rules for wordpress
+
+<img width="957" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/a91ec8d8-4056-4497-9658-b2040bd154b3">
+
+inbound rules for mysql
+
+<img width="805" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/d1d25038-5e26-4eda-8bbd-7aadb5df27c4">
+
+inbound rules for application gateway
+
+	you can not change any rule in application gateway
+
+<img width="798" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/058117c0-8171-49a3-ba1b-c0a3d35e56f0">
+
 
 # Create Applicate gateway (layer 7 ) :
 
@@ -187,4 +208,15 @@ I followed this link to create AG(LB7) :-
  <img width="564" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/cd6beec5-b4a1-4299-ad00-d3b5b159044a">
 
 
+ ## create DNS zones for hosting
+
+<img width="736" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/5b16c93d-04c7-4874-a39d-83bdf4745a9b">
+	
+ # create record 
+ 
+ <img width="520" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/5cda201d-cd24-47c1-b5ae-95b384fd57de">
+
+# name server
+
+<img width="515" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/33b2512d-0dd2-4163-951c-f3efb3e37632">
 
