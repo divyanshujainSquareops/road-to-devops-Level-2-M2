@@ -220,3 +220,8 @@ I followed this link to create AG(LB7) :-
 
 <img width="515" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/33b2512d-0dd2-4163-951c-f3efb3e37632">
 
+
+## public ip address
+
+<img width="958" alt="image" src="https://github.com/divyanshujainSquareops/road-to-devops-Level-2-M2/assets/148210383/a09a13ab-2d88-43ad-92b9-11a78d073e97">
+
